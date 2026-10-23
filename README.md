@@ -9,7 +9,7 @@ A visitor and access-management platform for multi-office organisations. Guests 
 | **What it is** | Visitor management with approvals, escalation, door-access credentials and real-time reception tools |
 | **Stack** | TypeScript, Express 5, Sequelize, PostgreSQL, Next.js 16 (React 19), Redis and BullMQ, Socket.IO |
 | **Quality** | 605 automated tests in 61 suites (test report generated and checked in CI), an OpenAPI coverage gate, Docker image smoke tests |
-| **Live demo** | [Guest platform](https://saas-gms.vercel.app/gms), signed in through the [identity portal](https://saas-portal-iota.vercel.app/sso/portal) |
+| **Live demo** | [Open it from the portfolio](https://dawitbkportfolio.vercel.app/#demos), which shows whether the demo server is online and has the sandbox login |
 | **My role** | Architect and lead engineer: requirements, design, build, QA and UAT, go-live and training of the IT staff who run it |
 
 ## Try it live
@@ -18,7 +18,7 @@ A visitor and access-management platform for multi-office organisations. Guests 
 2. Sign in at the [identity portal](https://saas-portal-iota.vercel.app/sso/portal) and open **Guest Management**.
 3. In the admin **Control Center**, press **Run Live Demo** to start a simulation of visitors arriving (press **Stop Demo** to end it), or open the operations queue to see approvals, escalations and credentials.
 
-The demo runs on a personal machine behind a tunnel, so it is sometimes offline. The data is synthetic and comes from a visit simulator. Email and SMS providers and door hardware are not connected in the demo, and the System Health page says so.
+The demo runs on a server of my own, so it is sometimes offline (a restart, a power cut or maintenance). The portfolio shows its status and, when it is offline, how to reach me. The data is synthetic and comes from a visit simulator. Email and SMS providers and door hardware are not connected in the demo, and the System Health page says so.
 
 ## Screenshots
 
